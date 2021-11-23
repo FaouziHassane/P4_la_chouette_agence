@@ -10,7 +10,16 @@ body {
 .p1 {
     font-size: x-large;
     margin-bottom: 30px;
+    text-align: center;
 }
+
+@media screen and (min-width:1025px) {
+    .p1, .p2  {
+      max-width:640px; 
+      margin-left:auto;
+      margin-right:auto;
+    }
+  }
 
 .p2 {
     font-size: x-large;
@@ -25,6 +34,14 @@ body {
 .p4 {
     font-size: x-large;
 }
+
+@media screen and (min-width:470px) {
+    .p4  {
+      max-width:480px; 
+      margin-left:auto;
+      margin-right:auto;
+    }
+  }
 
 a,
 button {
