@@ -35,6 +35,10 @@ body {
     font-size: x-large;
 }
 
+.p5 {
+    text-align: center;
+}
+
 @media screen and (min-width:470px) {
     .p4  {
       max-width:480px; 
@@ -76,7 +80,7 @@ a:hover {
 }
 
 .bloc .container {
-    padding-left: 0;
+
     padding-right: 0;
 }
 
@@ -353,7 +357,7 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
+    margin-right: 120px;
     float: right;
     z-index: 1;
 }
@@ -362,6 +366,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    margin: 16px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -807,20 +812,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color:  brown;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: brown;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: blue!important;
     color: #FFFFFF!important;
 }
 
