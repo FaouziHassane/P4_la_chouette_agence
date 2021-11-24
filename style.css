@@ -39,6 +39,8 @@ body {
     text-align: center;
 }
 
+
+
 @media screen and (min-width:470px) {
     .p4  {
       max-width:480px; 
@@ -53,9 +55,15 @@ button {
     outline: none!important;
 }
 
-a:hover {
+.navbar a:hover {
     text-decoration: none;
     cursor: pointer;
+    border-bottom: black solid 2px;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: transparent solid 2px;
 }
 
 #page-loading-blocs-notifaction {
@@ -80,12 +88,27 @@ a:hover {
 }
 
 .bloc .container {
-
+    padding-left: 0;
     padding-right: 0;
 }
 
 .bloc-lg {
     padding: 100px 50px;
+}
+
+#bloc-1-hero .tight-width-whitespace {
+    background-color: #4d4d4d;
+    padding: 5%;
+}
+
+#bloc-5-cta .row {
+    background-color: #4d4d4d;
+    padding: 5% .1%;
+}
+
+#bloc-8 a {
+    color: white !important;
+    font-size: large;
 }
 
 .bloc-md {
@@ -345,6 +368,8 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+
+    border-bottom: white solid 2px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -794,7 +819,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #4d4d00;
     padding: 40px 40px 40px 40px;
 }
 
@@ -812,21 +837,21 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color:  brown;
+    background-color: #a42a42;
 }
 
 .tc-white {
-    color: white!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: brown;
+    background: #a42a42;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: blue!important;
-    color: #FFFFFF!important;
+    background: orange!important;
+    color: black!important;
 }
 
 .ltc-white {
