@@ -1107,3 +1107,6 @@ h4 {
     }
 }
 
+@font-face {
+    font-display: swap;
+}
