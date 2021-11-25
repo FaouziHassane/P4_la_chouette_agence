@@ -174,10 +174,6 @@ input[type=radio] {
     padding: 0
 }
 
-input[type=number]::-webkit-inner-spin-button {
-    height: auto
-}
-
 input[type=search] {
 
     box-sizing: content-box;
@@ -3646,7 +3642,6 @@ textarea.input-lg {
 .btn:active:focus,
 .btn:focus {
     outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px
 }
 
@@ -4134,7 +4129,6 @@ fieldset[disabled] .btn-danger:hover {
 .btn-link:active,
 .btn-link[disabled],
 fieldset[disabled] .btn-link {
-    background-color: transparent;
     box-shadow: none
 }
 
